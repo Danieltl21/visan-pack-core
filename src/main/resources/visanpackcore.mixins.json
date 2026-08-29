@@ -4,7 +4,10 @@
     "package": "com.visan.visanpackcore.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
-        "InfuserMenuMixin"
+        "InfuserMenuMixin",
+        "ExperienceOrbMixin",
+        "ExcavationHandlerMixin",
+        "ExcavationHighlightRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
