@@ -8,7 +8,9 @@
         "ExperienceOrbMixin",
         "ExcavationHandlerMixin",
         "ExcavationHighlightRendererMixin",
-        "CreateAllFluidsMixin"
+        "CreateAllFluidsMixin",
+        "TrialSpawnerMixin",
+        "TrialSpawnerDataAccess"
     ],
     "injectors": {
         "defaultRequire": 1
