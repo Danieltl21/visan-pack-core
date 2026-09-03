@@ -11,7 +11,8 @@
         "CreateAllFluidsMixin",
         "TrialSpawnerMixin",
         "TrialSpawnerDataAccess",
-        "OpenEndedPipeMixin"
+        "OpenEndedPipeMixin",
+        "MagnetismMobEffectMixin"
     ],
     "injectors": {
         "defaultRequire": 1
