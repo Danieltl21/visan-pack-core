@@ -10,7 +10,8 @@
         "ExcavationHighlightRendererMixin",
         "CreateAllFluidsMixin",
         "TrialSpawnerMixin",
-        "TrialSpawnerDataAccess"
+        "TrialSpawnerDataAccess",
+        "OpenEndedPipeMixin"
     ],
     "injectors": {
         "defaultRequire": 1
