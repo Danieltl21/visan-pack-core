@@ -146,6 +146,7 @@ dependencies {
     implementation "curse.maven:artifacts-312353:8791899"
     implementation "curse.maven:brutal-bosses-dungeon-557999:7662187"
     implementation "curse.maven:create-328085:7963363"
+    implementation "curse.maven:quark-243121:8420966"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

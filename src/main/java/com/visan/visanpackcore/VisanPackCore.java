@@ -10,6 +10,7 @@ public final class VisanPackCore {
     public static final String MOD_ID = "visanpackcore";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public VisanPackCore() {
+    public VisanPackCore(net.neoforged.bus.api.IEventBus modEventBus) {
+        com.visan.visanpackcore.loot.ModLootConditions.LOOT_CONDITIONS.register(modEventBus);
     }
 }
