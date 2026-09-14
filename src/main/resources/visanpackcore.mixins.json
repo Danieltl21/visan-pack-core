@@ -13,7 +13,9 @@
         "TrialSpawnerDataAccess",
         "OpenEndedPipeMixin",
         "MagnetismMobEffectMixin",
-        "MonsterBoxBlockEntityMixin"
+        "MonsterBoxBlockEntityMixin",
+        "TrialSpawnerBlockMixin",
+        "VaultBlockMixin"
     ],
     "injectors": {
         "defaultRequire": 1

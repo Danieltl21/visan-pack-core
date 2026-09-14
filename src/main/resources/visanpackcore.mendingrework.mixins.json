@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.visan.visanpackcore.mixin.mendingrework",
+    "compatibilityLevel": "JAVA_21",
+    "plugin": "com.visan.visanpackcore.mixin.plugin.MendingReworkMixinPlugin",
+    "mixins": [
+        "MendingReworkMixin",
+        "JEIMendingReworkPluginMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
