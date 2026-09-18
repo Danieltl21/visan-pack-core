@@ -15,7 +15,9 @@
         "MagnetismMobEffectMixin",
         "TrialSpawnerBlockMixin",
         "VaultBlockMixin",
-        "PVJBrewingRecipeEventsMixin"
+        "PVJBrewingRecipeEventsMixin",
+        "BranchFactoryMixin",
+        "CostHelperMixin"
     ],
     "injectors": {
         "defaultRequire": 1
