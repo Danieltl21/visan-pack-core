@@ -1,13 +1,10 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.brutalbosses;
 
-import com.brutalbosses.BrutalBosses;
 import com.brutalbosses.entity.BossSpawnHandler;
 import com.brutalbosses.entity.BossType;
 import com.brutalbosses.entity.BossTypeManager;
-import com.visan.visanpackcore.VisanPackCore;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.level.block.entity.trialspawner.TrialSpawner;
 import net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig;

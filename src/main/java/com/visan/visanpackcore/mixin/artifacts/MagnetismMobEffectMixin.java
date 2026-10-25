@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.artifacts;
 
 import artifacts.effect.MagnetismMobEffect;
 import org.spongepowered.asm.mixin.Mixin;

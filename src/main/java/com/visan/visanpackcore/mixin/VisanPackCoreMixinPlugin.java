@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin.plugin;
+package com.visan.visanpackcore.mixin;
 
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
@@ -7,7 +7,8 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 import java.util.List;
 import java.util.Set;
 
-public class MendingReworkMixinPlugin implements IMixinConfigPlugin {
+public class VisanPackCoreMixinPlugin implements IMixinConfigPlugin {
+
     @Override
     public void onLoad(String mixinPackage) {
     }
@@ -19,12 +20,15 @@ public class MendingReworkMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        try {
-            Class.forName("dusk.mendingrework.MendingRework", false, this.getClass().getClassLoader());
-            return true;
-        } catch (Throwable t) {
-            return false;
+        if (mixinClassName.contains(".mendingrework.")) {
+            try {
+                Class.forName("dusk.mendingrework.MendingRework", false, this.getClass().getClassLoader());
+                return true;
+            } catch (Throwable t) {
+                return false;
+            }
         }
+        return true;
     }
 
     @Override

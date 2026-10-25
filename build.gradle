@@ -146,10 +146,8 @@ dependencies {
     compileOnly "curse.maven:immersive-enchanting-1354719:8598337"
     implementation "curse.maven:artifacts-312353:8791899"
     implementation "curse.maven:brutal-bosses-dungeon-557999:7662187"
-    implementation "curse.maven:create-328085:7963363"
     implementation "curse.maven:quark-243121:8420966"
     implementation "curse.maven:mendingrework-1392033:7348131"
-    implementation "curse.maven:project-vibrant-journeys-300297:6974075"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.minecraft;
 
 import net.minecraft.world.level.block.VaultBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;

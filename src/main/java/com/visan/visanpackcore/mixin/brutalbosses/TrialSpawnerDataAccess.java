@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.brutalbosses;
 
 import net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerData;
 import org.spongepowered.asm.mixin.Mixin;

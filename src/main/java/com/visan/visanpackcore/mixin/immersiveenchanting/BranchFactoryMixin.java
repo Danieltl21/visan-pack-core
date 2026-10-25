@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.immersiveenchanting;
 
 import me.alfie.immersiveenchanting.api.node.BuildBranchesEvent;
 import net.minecraft.world.item.Items;

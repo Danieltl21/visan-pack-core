@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.immersiveenchanting;
 
 import me.alfie.immersiveenchanting.gui.EnchantingTableMenu;
 import net.minecraft.core.Holder;

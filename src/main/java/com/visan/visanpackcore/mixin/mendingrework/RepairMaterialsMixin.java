@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(targets = "dusk.mendingrework.MendingRework", remap = false)
-public class MendingReworkMixin {
+public class RepairMaterialsMixin {
     @Inject(method = "alterRepairMaterials", at = @At("HEAD"), cancellable = true, remap = false)
     private void visan_cancelAlterRepairMaterials(CallbackInfo ci) {
         // Prevent Mending Rework from adding custom repair materials (e.g. String for Bows)

@@ -1,4 +1,4 @@
-package com.visan.visanpackcore.mixin;
+package com.visan.visanpackcore.mixin.excavate;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.HoeItem;
