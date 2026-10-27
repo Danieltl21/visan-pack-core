@@ -10,10 +10,7 @@
         "brutalbosses.TrialSpawnerMixin",
         "excavate.ExcavationHandlerMixin",
         "excavate.ExcavationHighlightRendererMixin",
-        "immersiveenchanting.BranchFactoryMixin",
-        "immersiveenchanting.CostHelperMixin",
         "mendingrework.JEIPluginMixin",
-        "mendingrework.RepairMaterialsMixin",
         "minecraft.ExperienceOrbMixin",
         "minecraft.TrialSpawnerBlockMixin",
         "minecraft.VaultBlockMixin"

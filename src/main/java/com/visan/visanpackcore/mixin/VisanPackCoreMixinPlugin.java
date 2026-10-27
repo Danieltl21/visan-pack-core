@@ -21,12 +21,7 @@ public class VisanPackCoreMixinPlugin implements IMixinConfigPlugin {
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
         if (mixinClassName.contains(".mendingrework.")) {
-            try {
-                Class.forName("dusk.mendingrework.MendingRework", false, this.getClass().getClassLoader());
-                return true;
-            } catch (Throwable t) {
-                return false;
-            }
+            return this.getClass().getClassLoader().getResource("dusk/mendingrework/MendingRework.class") != null;
         }
         return true;
     }

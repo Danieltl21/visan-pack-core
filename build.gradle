@@ -142,8 +142,6 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    
-    compileOnly "curse.maven:immersive-enchanting-1354719:8598337"
     implementation "curse.maven:artifacts-312353:8791899"
     implementation "curse.maven:brutal-bosses-dungeon-557999:7662187"
     implementation "curse.maven:quark-243121:8420966"
